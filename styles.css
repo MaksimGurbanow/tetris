@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    color: antiquewhite;
+    text-align: center;
+}
+.choose-level{
+    position: absolute;
+    color: aliceblue;
+    animation:  changecolor 2s linear infinite alternate;
+}
+.choose-level button{
+    width: 25%;
+    margin: 8px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: aquamarine;
+    animation: shining 2s linear infinite alternate;
+    border: none;
+    cursor: pointer;
+}
+.choose-level button:hover{
+    box-shadow: 0 0 20px rgb(255, 23, 197)
+}
+.choose-level button:active{
+    opacity: 0.6;
+}
+    
+
+.main{
+    width: 220px;
+}
+
+.pixel{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #7e7986;
+    margin: 0 2px 2px 0;
+}
+
+#gameOver {
+    animation: changecolor 1s linear infinite alternate;
+    text-align: center;
+    display: none;
+}
+
+@keyframes changecolor {
+    from{
+        text-shadow: 0 0 50px wheat;
+    }
+    to {
+        text-shadow: 0 0 0 white;
+    }
+}
+#button {
+    display: none
+}
+#newGameButton {
+    display: none;
+    text-align: center;
+    background: white;
+    color: black;
+    cursor: pointer;
+    padding: 0 5px 0 5px;
+}
+#newGameButton:active{
+    opacity: 0.6;
+}
