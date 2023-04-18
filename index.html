@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/566/566312.png" type="image/x-icon">
     <title>Tetris Game</title>
+    <script type="module" src="/app.js" defer>
+    </script>
+
 </head>
 <body>
     <div class="choose-level">
@@ -17,13 +20,13 @@
     <div class="main">
         <h1 id="gameOver" style="color:white">GAME OVER</h1>
         <div id="newGameButton" onclick="startNewGame()">Start a new Game</div>
-        <div class="container">
+        <div class="game">
             <h1 id="score"></h1>
             <button style="padding:0 0 0 2px" id="button">start/pause</button>
+            <div class="container">
+            </div>
         </div>
     </div>
 
-
-<script src="app.js"></script>
 </body>
 </html>
