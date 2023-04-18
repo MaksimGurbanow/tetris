@@ -1,5 +1,5 @@
 // imports
-import { tetrominoes } from "./tetrominoe.js"
+import { tetrominoes } from "tetrominoe.js"
 
 
 //received all needed elements
