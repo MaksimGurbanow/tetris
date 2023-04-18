@@ -16,15 +16,20 @@ body{
 .choose-level{
     position: absolute;
     color: aliceblue;
-    animation:  changecolor 2s linear infinite alternate;
+    animation:  shine 2s linear infinite alternate;
+}
+
+.choose-level h1 {
+    font-size: 9vw;
+
 }
 .choose-level button{
+    font-size: 1.2rem;
     width: 25%;
     margin: 8px;
     text-align: center;
     border-radius: 30px;
     background-color: aquamarine;
-    animation: shining 2s linear infinite alternate;
     border: none;
     cursor: pointer;
 }
@@ -54,7 +59,7 @@ body{
     display: none;
 }
 
-@keyframes changecolor {
+@keyframes shine {
     from{
         text-shadow: 0 0 50px wheat;
     }
