@@ -19,9 +19,8 @@ body{
     animation:  shine 2s linear infinite alternate;
 }
 
-.choose-level h1 {
+#choose-level-heading h1 {
     font-size: 9vw;
-
 }
 .choose-level button{
     font-size: 1.2rem;
