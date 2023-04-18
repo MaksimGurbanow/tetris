@@ -8,7 +8,7 @@ const scoreHead = document.getElementById("score")
 let pixels 
 let divs
 let tetro
-const chooseLevelButtons = document.querySelectorAll(".choose-level-button")
+const chooseLevelButtons = document.querySelectorAll(".choose-level button")
 //some needed variables
 let positionOfPixels = 1 + Math.floor(Math.random() * 4)
 const pixelsNumbers = 200
