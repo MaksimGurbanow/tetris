@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body{
@@ -20,11 +22,11 @@ body{
 }
 
 #choose-level-heading {
-    font-size: 9vw;
+    font-size: 7vw;
 }
 .choose-level button{
     font-size: 1.2rem;
-    width: 33%;
+    width: 27vw;
     margin: 8px;
     text-align: center;
     border-radius: 30px;
